@@ -1,1 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,section,nav,img{
+    padding: 0;
+    margin: 0;
 
+}
+html{
+    scroll-behavior: smooth;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+/* nav part css start */
+nav{
+    background-color: rgb(247, 249, 249);
+}
+.bgcolor{
+    clear: both;
+}
+.continer{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo img{
+    height: 90px;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{
+    float: right;
+
+}
+.menu ul li{
+    float: left;
+    padding: 13px 20px;
+    margin-top: 20px;
+    font-weight: bold;;
+}
+.menu ul li a{
+    color: rgb(3, 88, 88);
+    font-size: 18px;
+}
+.menu ul li a:focus{
+    background-color: green;
+    display: block;
+    color: white;
+}
+/* nav part css end*/
+
+/* banar part css */
+.banar{
+    background: url(../images/w_blog1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+.banar_overly{
+    padding: 150px 0;
+    background-color: rgba(0,0,0,.6);
+}
+.banar_content{
+    color:white
+}
+.banar_content h1{
+    font-size:60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.banar_content h4{
+    font-size:30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color:orange;
+}
+.banar_content a{
+    padding: 10px 20px;
+    background: teal;
+    text-transform:uppercase;
+    color:white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.banar_content a:hover{
+    background-color: green;
+    transition: all linear .3s;
+}
+/* banar part css end */
+
+/* about part css */
+.about_head h4{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+    background-color: teal;
+    padding: 10px 0;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 30px;
+
+}
+.about_img{
+    width: 50%;
+    float: left;
+}
+.about_content{
+    width: 50%;
+    float: left;
+}
+.about_img img{
+    width: 100%;
+}
+.about_content h3{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.about_content p{
+    padding-left: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-family: monospace;
+}
+/* about part css end */
+
+/* galary part css  */
+.gallary_img{
+    width: 32%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.gallary_img:hover img{
+    transform: scale(1.2);
+    transition: all linear .3s;
+}
+.gallary_img img{
+    width: 100%;
+    transition: all linear .3s;
+}
+.gallary_img:hover .gallary_overley{
+    transform: scale(1);
+    transition: all linear .3s;
+}
+.gallary_overley{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.4);
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+
+}
+
+.gallary_overley a{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    color: white;
+    line-height: 40px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+}
+.gallary_middle{
+    margin: 0 2%;
+}
+/* galary part css end */
+
+/* footer part css tart  */
+.footer{
+    background:black;
+}
+.footer_content p{
+    color: red;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* footer part css end */
